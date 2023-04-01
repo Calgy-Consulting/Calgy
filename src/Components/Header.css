@@ -1,0 +1,80 @@
+.header {
+    height: 300px;
+    width:auto  ;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    z-index: 999;
+    top:0;
+    user-select: none;
+}
+
+.backImg{
+    position:absolute;
+    background-repeat: no-repeat;
+    object-fit: none;  
+    object-position: 50% 50%;
+    height: 200px;
+    width: 1500px ;
+}
+
+.Logo_cont:active{
+    transform: translateY(1px);
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    max-width: 1500px;
+    border: 1px solid rgb(70, 70, 70);
+  }
+  
+.btns_cont{
+    position:absolute;
+    width:30em;
+    top:1em;
+    right:1em;
+    user-select: none;
+}
+
+.head_btnb{
+    border:none;
+    font-weight: bold;
+    position: sticky;
+    background:none;
+    color:rgb(255, 255, 255);
+    font-size: 1.25em;
+    font-weight: 550;
+    margin:7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(225, 225, 225);
+    transition: all 0.2s;
+}
+
+.head_btnb:hover{
+    color:rgb(43, 43, 43);
+    transform: translateY(-8px);
+    transition: all 0.3s;
+    border-bottom: 1px solid rgb(43,43,43);
+    
+}
+.head_btnb:active{
+    color:rgb(0, 0, 0);
+    transform: translateY(-3px);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: all 0.015s;
+}
+.Logo_cont{
+    position: absolute;
+    border: 1px solid black;
+    top:2em;
+    left:2em;
+    
+}
+  

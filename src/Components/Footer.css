@@ -1,0 +1,21 @@
+.footer {
+    background: rgb(245, 245, 245);
+    display: flex;    
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    z-index: 999;
+    position:relative;
+    right:0;
+    left:0;
+    bottom:-80px;
+}
+  
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    max-width: 1500px;
+  }

@@ -1,0 +1,63 @@
+.Box{
+    user-select: none;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    padding:1em;
+    
+    
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Img_Box{
+    border: 1px solid rgba(255, 255, 255, 0);
+    
+    text-align: center;
+    
+    width : 37.5em;
+}
+
+.Line{
+    border: 1px solid rgb(0, 0, 0);
+    height: 1em;
+    text-align: center;
+    width : 5em;
+}
+
+.Info_Box{
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-align: justify;
+    width : 37.5em;
+    height: 350px;
+}
+
+.img_cls{
+    border-radius: 10em;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: -5px 10px 10px rgb(0, 0, 0);
+
+    transform: translateY(5px);
+    transition: all 0.3s;
+}
+.img_cls:hover{
+    box-shadow: -5px 10px 5px rgb(36, 36, 36);
+    transform: translateY(-5px);
+    transition: all 0.3s;
+}
+.img_cls:active{
+    border:1px solid rgba(0,0,0, 1);
+    box-shadow: -5px 10px 10px rgb(0, 0, 0);
+    transform: translateY(2px);
+    transition: all 0.05s;
+}
+.Info_Title{
+    text-align: center;
+    font-weight: bold;
+}
+.Info_Text{
+    font-weight: normal;
+    color: rgb(133, 119, 119);
+}
