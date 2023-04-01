@@ -1,8 +1,8 @@
 {
-  "name": "mpw",
+  "name": "Calgy",
+  "homepage": "https://calgy-consulting.github.io/Calgy",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://calgy-consulting.github.io/calgy",
   "type": "module",
   "scripts": {
     "dev": "vite",
