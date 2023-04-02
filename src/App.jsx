@@ -17,12 +17,10 @@ export default function App() {
     return (
 
       <div className="App">
-      <Router>
-       
+      <Router>       
        <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/solutions' element={<Solution/>}/>
-          
           <Route exact path='/services' element={<Service/>}/>
           <Route exact path='/contact' element={<Contact/>}/>
         </Routes>
