@@ -47,6 +47,8 @@ const Contact = () => {
         className='picture_frame'
         src={pic}
         />
+
+      <div className='contact_us'></div>
     <Footer/>
     </div>
       
