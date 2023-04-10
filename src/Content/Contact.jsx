@@ -1,70 +1,39 @@
 import './Contact.css'
-import React, { useState } from "react";
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import Header from './../Components/Header';
 
 const Contact = () => {
-  
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const form = useRef();
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const onSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    send(
-      'SERVICE ID',
-      'TEMPLATE ID',
-      toSend,
-      'User ID'
-    )
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-      })
-      .catch((err) => {
-        console.log('FAILED...', err);
+
+    emailjs.sendForm('service_fd44ram', 'template_aqx6klu', form.current, 'hBo-GHHnxYJW8ef5T')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
       });
   };
 
     return (
     <div className='Contact-container'>
       <Header/>
-        <form onSubmit={onSubmit}>
-          <div>
-            <label htmlFor="name">Name:</label>
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-            />
-          </div>
-          <div>
-            <label htmlFor="email">Email:</label>
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-            />
-          </div>
-          <div>
-            <label htmlFor="message">Message:</label>
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-            />
-          </div>
-          <button type="submit">Send</button>
-        </form>
+      <br/>
+      <br/>
+      <form ref={form} onSubmit={sendEmail}>
+      <br/>
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <br/>
+      <label>Subject</label>
+      <input type="text" name="Subject" />
+      <br/>
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
     </div>
       
   );

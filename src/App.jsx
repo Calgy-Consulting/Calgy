@@ -2,15 +2,11 @@ import React, { useState } from 'react'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 
-import Header from "./Components/Header";
 import Home from "./Content/Home";
 import Solution from "./Content/Solution";
 
 import Service from "./Content/Service";
 import Contact from "./Content/Contact";
-
-
-
 
 export default function App() {
 

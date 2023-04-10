@@ -1,7 +1,12 @@
 .header {
-    height: 300px;
-    width:auto  ;
+    height: 170px;
+    
+    background:linear-gradient(to bottom right, rgb(21, 37, 181), rgb(1, 255, 234));
+    /*
+    background:linear-gradient(to bottom right, rgb(116, 151, 157), rgb(1, 255, 234));
+    */
     position:relative;
+    width:auto  ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +21,6 @@
     background-repeat: no-repeat;
     object-fit: none;  
     object-position: 50% 50%;
-    height: 200px;
     width: 1500px ;
 }
 
@@ -72,9 +76,10 @@
 }
 .Logo_cont{
     position: absolute;
-    border: 1px solid black;
-    top:2em;
+    top:0em;
     left:2em;
     
 }
-  
+.Logo_cont:hover{
+    cursor: pointer;
+}

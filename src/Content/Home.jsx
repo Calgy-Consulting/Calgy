@@ -1,7 +1,8 @@
 import './Home.css'
 import pic1 from './../images/img013.jpeg'
-import pic2 from './../images/img007.jpeg'
-import pic3 from './../images/img001.png'
+import pic2 from './../images/img001.1.png'
+import pic3 from './../images/img007.jpeg'
+import Ct from './../assets/Ct/txt.json'
 
 
 import Footer from './../Components/Footer';
@@ -25,21 +26,21 @@ function Home() {
           img={pic1}
           url="/solutions"
           title="What is XR?"
-          text="   XR stands for Extended Reality. It is a futuristic field that has limitless potential for various industries, providing innovative solutions for businesses. XR offers a unique combination of digital and physical experiences, creating a new level of immersion or even more efficient work environments that was previously impossible. This makes it an extremely versatile tool for numerous purposes from training, visual guidance, to AI integration. Overall, XR is a wide range of new technologies and limitless solutions, making it a key player in many industrial and work processes."
+          text={Ct.Home.textI}
           />
         <Block
           id={1}
           img={pic2}
           url={"/services"}
-          title="What do we do?"
-          text="la"
+          title="Who are we ?"
+          text={Ct.Home.textII}
           />
           <Block
           id={2}
           img={pic3}
           url={"/services"}
-          title="Who are we?"
-          text="la"
+          title="What do we do ?"
+          text={Ct.Home.textIII}
           />
 
         </div>

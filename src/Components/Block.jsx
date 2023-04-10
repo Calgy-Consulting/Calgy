@@ -17,10 +17,8 @@ const Block = props => {
             onClick={() =>navigate(props.url)}
             src={props.img}
             width={width/3.3}
-            height={width/4.4}/>
-          </div>
-          <div className='Line'> 
-          <hr/>
+            height={width/4.4}
+            />
           </div>
           <div className='Info_Box'>
             <h1 className='Info_Title'><i>{props.title}</i></h1>
@@ -34,9 +32,6 @@ const Block = props => {
           <div className='Info_Box'>
             <h1 className='Info_Title'><i>{props.title}</i></h1>
             <h3 className='Info_Text'> {props.text}</h3>
-          </div>
-          <div className='Line'> 
-            <hr/>
           </div>
           <div className='Img_Box'>
            <img className='img_cls'

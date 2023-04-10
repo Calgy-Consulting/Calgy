@@ -8,7 +8,20 @@ function Solution() {
   return (
     <div className='Solution-container'>
       <Header/>
-        <h1>TODO</h1>
+        
+        <h1>
+
+        Calgy 
+
+      solutions :
+
+      - Ideation
+      - 
+
+
+
+        </h1>
+        
 
         <Footer/>
     </div>

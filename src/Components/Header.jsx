@@ -1,8 +1,7 @@
 import './Header.css'
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import logo from './../images/img000.png';
+import logo from './../images/logoemptylens.png';
 
-import Carousel from './Carousel';
 
 
 function Header() {
@@ -10,7 +9,6 @@ function Header() {
   return (
     <nav className='header'>
       <div className='header-container'>
-        <Carousel/>
         <div className='btns_cont'>
           <button className='head_btnb' onClick={() =>navigate("/")}>Home</button>
           <button className='head_btnb' onClick={() =>navigate("/solutions")}>Solutions</button>
@@ -20,8 +18,8 @@ function Header() {
         <div className='Logo_cont' onClick={() =>navigate("/")}>
           <img
             src={logo}
-            width={315}
-            height={90}
+            width={240}
+            height={166}
           />
         </div>            
       </div>
