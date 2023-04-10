@@ -6,7 +6,7 @@ function Footer() {
   return (
     <nav className='footer'>
         <div className='footer-container'>
-          Footer
+          Calgy XR
         </div>
       </nav>
       

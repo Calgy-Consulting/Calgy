@@ -1,0 +1,87 @@
+.test1{
+    background:url("./../images/img003.jpeg");
+    background-position:0 ;
+    background-repeat: no-repeat;
+    
+    background-size: 100% 250%;
+    width: 100%;
+    height:30em;
+    
+    transition: all 0.3s;
+}
+.test2{
+    background:url("./../images/img004.jpeg");
+    background-position: 0 ;
+    background-repeat: no-repeat;    
+    background-size: 100% 250%;
+    width: 100%;
+    height:30em;
+    object-position:100% 100%;
+    transition: all 0.3s;
+}
+.test3{
+    background:url("./../images/img005.jpeg");
+    background-position:0 ;
+    background-repeat: no-repeat;
+    
+    background-size: 100% 250%;
+    width: 100%;
+    height:30em;
+    
+    transition: all 0.3s;
+}
+.test4{
+    background:url("./../images/img006.jpeg");
+    background-position: 0 ;
+    background-repeat: no-repeat;    
+    background-size: 100% 250%;
+    width: 100%;
+    height:30em;
+    object-position:100% 100%;
+    transition: all 0.3s;
+}
+
+.test1:hover{
+    height:40em;
+    background-size: 100% 189%;
+    transition: all 0.3s;
+}
+
+.test2:hover{
+    height:40em;
+    background-size: 100% 189%;
+    transition: all 0.3s;
+}
+.test3:hover{
+    height:40em;
+    background-size: 100% 189%;
+    transition: all 0.3s;
+}
+
+.test4:hover{
+    height:40em;
+    background-size: 100% 189%;
+    transition: all 0.3s;
+}
+
+.text-cont{
+    background-color: black;
+    opacity: 0;
+    position: relative;
+    width: auto;
+    height: 30em;
+    transition: all 0.3s;
+}
+
+.text-cont:hover{
+    height: 40em;
+    opacity: 0.6;
+    transition: all 0.3s;
+}
+.text{
+    padding-top: 2.3em;
+    text-align: center;
+    position: relative;
+    color: rgba(255,255,255,1);
+    font-size: 7em;
+}

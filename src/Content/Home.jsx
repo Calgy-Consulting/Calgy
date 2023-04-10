@@ -8,7 +8,6 @@ import Ct from './../assets/Ct/txt.json'
 import Footer from './../Components/Footer';
 import Header from './../Components/Header';
 import Block from './../Components/Block';
-import FrontPage from './../Components/FrontPage';
 
 function Home() {
   
