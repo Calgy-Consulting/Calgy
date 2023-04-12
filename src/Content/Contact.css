@@ -70,24 +70,33 @@
 }
 .SendBtn:active{
     top:1em;
-    transform: translateY(7px);    
-    transition: all 0.5s;
-    color:#df5404
+    transform: translateY(10px);    
+    color:#ef0000;
+    transition: all 0s;
 }
 
 .picture_frame{
-    position:relative;
-    left:250px;
-    top:-400px;
+    position:absolute;
+    right:250px;
+    top: 40%;
     height:20em;
     width: 22em;
     border-radius: 25%;
         
     
 }
-
 .input{
     padding:10px;
     margin:20px;
 
+}
+.textArea{
+    padding-top: 8%;
+    padding-right:15%;
+    padding-left: 15%;
+    font-size:200%;
+    font-style: italic;
+    font-family: 'Libre Franklin' ;
+    font-weight: 800;
+    color: #0c3642;
 }

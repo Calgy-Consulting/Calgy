@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import Header from './../Components/Header';
 import Footer from './../Components/Footer';
 import pic from './../images/img0017.jpg';
+import Ct from './../assets/Ct/txt.json';
 
 const Contact = () => {
   const form = useRef();
@@ -35,20 +36,20 @@ const Contact = () => {
           </div>
           <div className='flex-container3'>
             <input type="email" className='input' name="user_email" />
-            <input type="text"className='input' name="Subject" />
+            <input type="text"className='input' name="subject" />
             <textarea name="message"className='input' />
             <input type="submit" value="Send" className='SendBtn' />
           </div>
         </div>
         
       </form>
+      
       </div>
       <img 
         className='picture_frame'
         src={pic}
         />
-
-      <div className='contact_us'></div>
+      <div className='textArea'>{Ct.ContactUs.C}</div>
     <Footer/>
     </div>
       

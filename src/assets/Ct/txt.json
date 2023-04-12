@@ -7,8 +7,9 @@
     "Solutions" : {
         "intro" : " As a company, we understand the importance of keeping up with the latest technological advancements to stay ahead of the competition. Our XR consulting services aim to support businesses in their journey towards implementing cutting-edge solutions and achieving their project goals. We bring our expertise and experience to the table to offer customized solutions that fit the unique needs of each of our clients. Whether you're starting a new project or need help optimizing an existing one, our team of consultants is here to guide you every step of the way. Let's work together to take your business to the next level !",
         "Ideation":" The most important part of your projects is the idea. Calgy works closely with your teams to understand their behaviour and needs to find the best applications ans solutions for your business. We provide complete expertise from knowledge on existing projects to documentation and research on the ideas that you wish to build. ",
-        "Project management":"",
-        "Support": ""
+        "Developpment":"Project Development is a key aspect for reliable and profitable solutions. We  ",
+        "Support": "",
+        "Training": ""
     },
     "Services": {
         "Developpment":"",
@@ -20,6 +21,6 @@
 
     },
     "ContactUs" : {
-        "C" : ""
+        "C" : " As it is a concern for most of businesses, we try to answer to all requests as soon as we receive them. We understand your time is precious and valuable. Feel free to send your availability to schedule a meeting with our teams and we'll respond right back. "
     }
 }

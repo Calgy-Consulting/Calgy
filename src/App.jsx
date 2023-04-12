@@ -15,7 +15,7 @@ export default function App() {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Droid Sans', 'Chilanka', 'Ubuntu']
+        families: ['Droid Sans', 'Chilanka', 'Ubuntu', 'Libre Franklin']
       }
     });
    }, []);
