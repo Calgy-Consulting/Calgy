@@ -10,6 +10,10 @@ function Solution() {
    
     <div className='Solution-container'>
       <Header/>
+     
+      { /*<div className='intro'> {Ct.Solutions.intro}
+      </div>*/}
+      
         <div className='test1'>
           <div className='text-cont'>
             <div className='text1'>
@@ -35,28 +39,29 @@ function Solution() {
             </div>
           </div>
         </div>
-        <div className='test3'>
-          <div className='text-cont'>
-            <div className='text1'>
-              Support
-            </div>
-            <div className='text11'>
-            {Ct.Solutions.Support}
-            
-            </div>
-          </div>
-        </div>
         <div className='test4'>
           <div className='text-cont'>
-            <div className='text2'>
+            <div className='text1'>
             Training
             </div>
-            <div className='text21' >
+            <div className='text11' >
             {Ct.Solutions.Training}
             
             </div>
           </div>
         </div>
+        <div className='test3'>
+          <div className='text-cont'>
+            <div className='text2'>
+              Support
+            </div>
+            <div className='text21'>
+            {Ct.Solutions.Support}
+            
+            </div>
+          </div>
+        </div>
+        
       
         <Footer/>
     </div>

@@ -1,21 +1,47 @@
 .footer {
     background: rgb(245, 245, 245);
     display: flex;    
-    height: 80px;
+    height: 130px;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 0.8;
     z-index: 999;
     position:relative;
     right:0;
     left:0;
-    bottom:-80px;
+}
+.footer-container{
+    display:flex;
+    margin:3%;
+    padding:2px;
+}
+.btn_cont{
+    padding:2px;
+    margin-right:3%;
+    margin-left:3%;
+    text-align: left;
 }
   
-.footer_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    max-width: 1500px;
-  }
+.foot_btna{
+    position:relative;
+    font-size: large;
+    font-weight: bold;
+    right:10%; 
+    font-family:'Ubuntu';
+}
+
+.foot_btna:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.foot_btnb{
+    font-weight:normal;
+    position:relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right:10%;
+}
+
+.foot_btnb:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

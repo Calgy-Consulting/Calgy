@@ -1,3 +1,8 @@
+.intro{
+    padding-left: 5%;
+    padding-right:5% ;
+}
+
 .test1{
     background:url("./../images/img003.jpeg");
     background-position:0 ;
@@ -113,10 +118,11 @@
 }
 .text21{
     display:inline-block;
-    padding-top: 4em;
+    padding-top: 12%;
+    width: 44%;
     height:20px;
     text-align: right;
-    padding-left: 20%;
+    padding-right: 6%;
     position: absolute;
     color: rgba(255,255,255,1);
     font-size: 1.8em;

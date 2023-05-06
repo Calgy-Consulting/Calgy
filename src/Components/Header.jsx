@@ -1,6 +1,7 @@
 import './Header.css'
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import logo from './../images/logoemptylens.png';
+import Ct from './../assets/Ct/txt.json';
 
 
 
@@ -21,7 +22,10 @@ function Header() {
             width={240}
             height={166}
           />
-        </div>            
+        </div>
+        <div className='quote'>
+          {Ct.intro}
+          </div>            
       </div>
     </nav>
   );

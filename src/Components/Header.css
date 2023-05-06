@@ -83,3 +83,17 @@
 .Logo_cont:hover{
     cursor: pointer;
 }
+.quote{
+    padding: 5px;
+    line-height: 140%;
+    width:37%;
+    height: 10%;
+    margin-left: 23%;
+    text-align: left;
+    font-size: 80%;
+    font-weight: 600;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    color: #0c0266;
+
+}
